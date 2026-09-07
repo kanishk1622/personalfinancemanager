@@ -18,7 +18,7 @@ def pause():
 def get_amount():
     while True:
         try:
-            amount = float(input("Enter amount:₹"))
+            amount = float(input("Enter amount: ₹"))
 
             if amount <= 0:
                 print("Amount must be greater than 0.")
